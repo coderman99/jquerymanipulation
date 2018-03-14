@@ -1,0 +1,27 @@
+#text {
+    position: absolute;
+    margin-top: 150px;
+}
+
+#btnText {
+    position: absolute;
+    margin-top: 100px;
+}
+
+
+
+
+
+#box {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-top: 300px;
+
+}
+
+#para {
+    position: absolute;
+    margin-top: 550px;
+}
