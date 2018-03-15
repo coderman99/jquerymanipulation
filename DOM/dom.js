@@ -78,17 +78,12 @@ document.addEventListener("DOMContentLoaded", function () {
     uL.style.marginTop = "760px";
     bt.addEventListener("click", addLi);
     function addLi() {
-        
-        
-        // let friends = ["Scott", "Cameron", "Ed", "Seminole", "Karen", "Herbert", "Pester", "Typer", "Riley", "Quizzer"];
-        // for(i = 0; i < friends.length; i ++){
+        let friends = ["Scott", "Cameron", "Ed", "Seminole", "Karen", "Herbert", "Pester", "Typer", "Riley", "Quizzer"];
+        for(i = 0; i < friends.length; i ++){
             let li = document.createElement("li");
+           let list = document.createTextNode(friends[i]);
+           li.appendChild(list);
             uL.appendChild(li);
-        }
-        
-        
-
-
-
-
+        }   
+    }
 });

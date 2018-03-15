@@ -41,13 +41,13 @@ $(par0).click(function(){
 
 let btn2 = $("<button></button>").text("Click for Name!");
 $(btn2).css({"position": "absolute", "margin-top": "550px"});
-$("body").appendChild(btn2);
+$("body").append(btn2);
 let div1 = $("<div></div>");
 $(div1).css({"position": "absolute", "margin-top": "600px"});
-$("body").appendChild(div1);
+$("body").append(div1);
 $(btn2).click(function(){
     let span0 = $("<span></span>").text("Edward Hart");
-    $(div1).appendChild(span0);
+    $(div1).append(span0);
 });
 
 // Objective 6
